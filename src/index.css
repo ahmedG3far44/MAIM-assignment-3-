@@ -354,7 +354,6 @@ button:hover {
   transition: transform 0.3s ease;
 }
 
-
 .movie-card {
   display: flex;
   flex-direction: column;
@@ -566,6 +565,8 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(4, minmax(250px, 1fr));
   gap: 1rem;
+  grid-auto-flow: row;
+  margin: auto;
 }
 .center {
   margin: auto;
