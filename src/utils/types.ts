@@ -1,16 +1,15 @@
-
 export interface MovieType {
-  id: number;
+  id?: number;
   title: string;
-  original_title: string;
-  original_language: string;
-  adult: boolean;
-  popularity: number;
-  backdrop_path: string;
-  overview: string;
+  original_title?: string;
+  original_language?: string;
+  adult?: boolean;
+  popularity?: number;
+  backdrop_path?: string;
+  overview?: string;
   vote_average: string;
   poster_path: string;
-  release_date: string;
+  release_date?: string;
 }
 
 interface Genre {
@@ -81,3 +80,17 @@ export interface FavoriteListType {
   removeFavoriteMovie: (id: string) => void;
   addFavoriteMovie: (movie: MovieType) => void;
 }
+
+export interface Movie {
+  title: string;
+  rating: number;
+  thumbnail:string;
+  description?: string;
+  genre?: string[];
+  year: number;
+}
+export interface CategoryMovieType {
+  title: string;
+  movies: Movie[];
+}
+

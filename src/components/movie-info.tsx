@@ -23,7 +23,7 @@ export const MovieInfo = ({
   };
 
   const formatRating = (rating: number) => {
-    return (rating / 2).toFixed(1); // Convert 10-point to 5-point scale
+    return (rating / 2).toFixed(1); 
   };
 
   const toggleOverview = () => {

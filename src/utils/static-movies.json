@@ -1,0 +1,110 @@
+{
+  "categories": [
+    {
+      "title": "Trending Now",
+      "movies": [
+        {
+          "title": "Neon Dreams",
+          "rating": 8.7,
+          "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "description": "In a futuristic city bathed in neon lights, a detective must uncover a conspiracy that threatens to rewrite history.",
+          "genre": ["Sci-Fi", "Thriller"],
+          "year": 2024
+        },
+        {
+          "title": "Ocean's Mystery",
+          "rating": 8.2,
+          "thumbnail": "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "description": "A deep-sea expedition unearths a long-lost secret that could change the fate of the world.",
+          "genre": ["Adventure", "Mystery"],
+          "year": 2023
+        },
+        {
+          "title": "Desert Storm",
+          "rating": 7.9,
+          "thumbnail": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "description": "Set in the vast deserts of the Middle East, a soldier faces an impossible mission during a brewing conflict.",
+          "genre": ["Action", "Drama"],
+          "year": 2022
+        },
+        {
+          "title": "Midnight Heist",
+          "rating": 8.4,
+          "thumbnail": "https://images.pexels.com/photos/1482476/pexels-photo-1482476.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "description": "A team of elite thieves attempts the most daring heist ever, but betrayal lurks in the shadows.",
+          "genre": ["Crime", "Thriller"],
+          "year": 2024
+        },
+        {
+          "title": "Forest Legends",
+          "rating": 8.1,
+          "thumbnail": "https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "description": "In an enchanted forest, a young warrior must unite mystical creatures to save her homeland.",
+          "genre": ["Fantasy", "Adventure"],
+          "year": 2023
+        },
+        {
+          "title": "Steel City",
+          "rating": 7.8,
+          "thumbnail": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "description": "A gritty drama about survival and hope in the industrial underbelly of a collapsing metropolis.",
+          "genre": ["Drama", "Action"],
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "title": "Action & Adventure",
+      "movies": [
+        {
+          "title": "Thunder Strike",
+          "rating": 8.3,
+          "thumbnail": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "description": "When a rogue storm weapon threatens the globe, a maverick pilot leads the ultimate mission to stop it.",
+          "genre": ["Action", "Sci-Fi"],
+          "year": 2024
+        },
+        {
+          "title": "Mountain Rescue",
+          "rating": 7.6,
+          "thumbnail": "https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "description": "A rescue team braves deadly avalanches to save stranded climbers from the world's tallest peaks.",
+          "genre": ["Adventure", "Drama"],
+          "year": 2023
+        },
+        {
+          "title": "Speed Demon",
+          "rating": 8.0,
+          "thumbnail": "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "description": "A rebellious street racer is forced to join a covert operation to dismantle a crime syndicate.",
+          "genre": ["Action", "Thriller"],
+          "year": 2023
+        },
+        {
+          "title": "Urban Warrior",
+          "rating": 8.5,
+          "thumbnail": "https://images.pexels.com/photos/2049422/pexels-photo-2049422.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "description": "In a lawless megacity, a masked vigilante takes justice into his own hands.",
+          "genre": ["Action", "Crime"],
+          "year": 2024
+        },
+        {
+          "title": "Sky Pirates",
+          "rating": 7.7,
+          "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "description": "Airship pirates clash in a battle for control of the skies over a steampunk world.",
+          "genre": ["Adventure", "Fantasy"],
+          "year": 2022
+        },
+        {
+          "title": "Volcano Quest",
+          "rating": 7.4,
+          "thumbnail": "https://images.pexels.com/photos/1647120/pexels-photo-1647120.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "description": "An expedition to an active volcano uncovers an ancient civilization and a deadly curse.",
+          "genre": ["Adventure", "Mystery"],
+          "year": 2022
+        }
+      ]
+    }
+  ]
+}
