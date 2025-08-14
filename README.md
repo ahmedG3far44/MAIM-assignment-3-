@@ -1,11 +1,11 @@
-** Install the PNPM package manager:
+** Install the PNPM package manager globally:
 ```
-    npm install -g pnpm, 
+    npm install -g pnpm 
 ```
 
 ** Install the all the required dependencies:
 ```
-    pnpm install, 
+    pnpm install
 ```
 
 ** Run the app:
