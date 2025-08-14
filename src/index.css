@@ -84,7 +84,7 @@ header > .logo > span {
 .hero {
   padding: 1rem;
   width: 100%;
-  min-height: 900px;
+  min-height: 100vh;
   position: relative;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -110,7 +110,7 @@ header > .logo > span {
 }
 
 .hero-container {
-  width: 50%;
+  width: 60%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -122,7 +122,6 @@ header > .logo > span {
   gap: 1rem;
   color: var(--text-color);
   z-index: 2;
-  animation: fade 1s ease-in-out forwards;
 }
 .hero-container > h1 {
   font-size: 5rem;
@@ -142,7 +141,7 @@ header > .logo > span {
   color: gainsboro;
   font-size: medium;
   line-height: 1.5;
-  width: 50%;
+  width: 65%;
 }
 .hero-container > .rating-info {
   display: flex;
@@ -566,6 +565,7 @@ button:hover {
   grid-template-columns: repeat(4, minmax(250px, 1fr));
   gap: 1rem;
   grid-auto-flow: row;
+  place-content: center;
   margin: auto;
 }
 .center {
@@ -622,21 +622,33 @@ button:hover {
   gap: 1rem;
 }
 
-@media (min-width: 1080px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1400px) {
   .movies-container {
-    grid-template-columns: repeat(6, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    margin: auto;
   }
 }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1440px) {
+  .movies-container {
+    grid-template-columns: repeat(6, minmax(250px, 1fr));
+    margin: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-content {
     grid-template-columns: 1fr;
     text-align: center;
     gap: 1.5rem;
   }
+  header > nav{
+    display: none;
+  }
   .movies-container {
     grid-template-columns: repeat(2, minmax(250px, 1fr));
   }
-
   .poster {
     width: 200px;
     height: 300px;

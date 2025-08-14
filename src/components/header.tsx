@@ -3,7 +3,7 @@ import { useSearch } from "../context/searchContext";
 import { Search } from "lucide-react";
 
 const Header = () => {
-  const { setSearch, getMovieByTitle, blocked } = useSearch();
+  const { search, setSearch, getMovieByTitle, blocked } = useSearch();
   return (
     <header>
       <Link to={"/"} className="logo">
@@ -19,6 +19,7 @@ const Header = () => {
       <div className="search-bar">
         <input
           type="search"
+          value={search}
           placeholder="search for movies"
           onChange={(e) => setSearch(e.target.value as string)}
         />

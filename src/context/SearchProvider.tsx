@@ -43,6 +43,7 @@ const SearchProvider = ({ children }: { children: ReactNode }) => {
       }
       const data = await response.json();
       setMovie(data.results);
+      setSearch("")
       return data;
     } catch (error) {
       setError((error as Error).message);

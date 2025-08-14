@@ -1,5 +1,4 @@
 import { useSearch } from "./context/searchContext";
-import { StaticMoviesList } from "./components/static-movies-list";
 import HeroMovie from "./components/hero-movie";
 import MovieCard from "./components/movie-card";
 import Spinner from "./components/spinner";
@@ -24,9 +23,6 @@ const App = () => {
           )}
         </div>
       )}
-      <div className="center">
-        <StaticMoviesList />
-      </div>
     </div>
   );
 };

@@ -113,6 +113,7 @@ const HeroMovie = () => {
     },
   ];
   const [next, setNext] = useState<number>(0);
+  
   const handleSwitchMovie = () => {
     setNext((prev) => (prev >= movies.length - 1 ? 0 : prev + 1));
   };
